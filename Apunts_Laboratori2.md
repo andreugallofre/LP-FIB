@@ -9,6 +9,7 @@ Això ens pot permetre tenir funcions recursives sense tenir problemes amb desbo
 Mes info a: 
 
 https://www.campusmvp.es/recursos/post/Recursividad-de-cola-tail-recursion.aspx
+
 https://stackoverflow.com/questions/33923/what-is-tail-recursion
 
 Exemple del codi del factorial sese tail recursion
@@ -160,6 +161,10 @@ fact n = prod [1..n]
 Tenim les versions l i r, l s'aplica des de l'esquerra, i r des de la dreta anant cap a l'esquerra
 
 Scan fa el mateix que fold, però en lloc de retornar el valor final, ens retorna el valor intermig
+
+Més informació sobre les funcions d'ordre superior a
+
+https://lliçons.jutge.org/haskell/funcions-ordre-superior.html
 
 Un possible exemple d'implementació d'una d'aquestes funcions podria ser:
 
