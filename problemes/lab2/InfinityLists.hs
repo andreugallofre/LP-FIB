@@ -1,6 +1,7 @@
 
 ones :: [Integer]
-ones = 1:ones
+--ones = 1:ones
+ones = iterate (+0) 1
 
 fib :: [Integer]
 fib = 0:1:zipWith (+) fib (tail fib)
